@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyStydy.Shop.DataAccess
-{
-    public class Class1
-    {
+namespace MyStudy.Shop.DataAccess.DAO.Interfaces {
+    interface IEmployeeDao {
     }
 }
