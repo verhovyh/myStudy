@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStudy.Shop.Console", "MyStudy.Shop.Console\MyStudy.Shop.Console.csproj", "{577E5B22-5D8E-4103-94E3-185CE242DD39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStydy.Shop.DataAccess", "MyStydy.Shop.DataAccess\MyStydy.Shop.DataAccess.csproj", "{A68982F9-4B8A-4325-8A4A-5CF61D122155}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStudy.Shop.DataAccess", "MyStydy.Shop.DataAccess\MyStudy.Shop.DataAccess.csproj", "{A68982F9-4B8A-4325-8A4A-5CF61D122155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

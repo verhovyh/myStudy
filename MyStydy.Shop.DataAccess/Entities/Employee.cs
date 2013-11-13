@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NHibernateTest1 {
+﻿namespace MyStudy.Shop.DataAccess.Entities {
     class Employee
     {
         public int Id;
