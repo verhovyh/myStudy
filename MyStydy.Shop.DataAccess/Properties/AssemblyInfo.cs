@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NHibernateTest1")]
+[assembly: AssemblyTitle("MyStydy.Shop.DataAccess")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NHibernateTest1")]
+[assembly: AssemblyProduct("MyStydy.Shop.DataAccess")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7a336dd5-28e0-45be-81ea-567c865af3fc")]
+[assembly: Guid("b3bd957b-7f7d-47b1-97a1-bbfe9d6ef802")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -68,12 +68,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NHibernateTest1\MyStudy.Shop.DataAccess.csproj">
-      <Project>{524a8ae1-20d9-46c0-aafc-278873e92fc7}</Project>
-      <Name>MyStudy.Shop.DataAccess</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>

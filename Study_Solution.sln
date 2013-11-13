@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStudy.Shop.DataAccess", "NHibernateTest1\MyStudy.Shop.DataAccess.csproj", "{524A8AE1-20D9-46C0-AAFC-278873E92FC7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStudy.Shop.Console", "MyStudy.Shop.Console\MyStudy.Shop.Console.csproj", "{577E5B22-5D8E-4103-94E3-185CE242DD39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStydy.Shop.DataAccess", "MyStydy.Shop.DataAccess\MyStydy.Shop.DataAccess.csproj", "{A68982F9-4B8A-4325-8A4A-5CF61D122155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{524A8AE1-20D9-46C0-AAFC-278873E92FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{524A8AE1-20D9-46C0-AAFC-278873E92FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{524A8AE1-20D9-46C0-AAFC-278873E92FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{524A8AE1-20D9-46C0-AAFC-278873E92FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{577E5B22-5D8E-4103-94E3-185CE242DD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{577E5B22-5D8E-4103-94E3-185CE242DD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{577E5B22-5D8E-4103-94E3-185CE242DD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{577E5B22-5D8E-4103-94E3-185CE242DD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68982F9-4B8A-4325-8A4A-5CF61D122155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68982F9-4B8A-4325-8A4A-5CF61D122155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68982F9-4B8A-4325-8A4A-5CF61D122155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68982F9-4B8A-4325-8A4A-5CF61D122155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
