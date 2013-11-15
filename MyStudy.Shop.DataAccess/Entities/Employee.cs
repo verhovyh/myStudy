@@ -1,5 +1,7 @@
-﻿namespace MyStudy.Shop.DataAccess.Entities {
-    class Employee
+﻿using MyStudy.Shop.DataAccess.Entities.Base;
+
+namespace MyStudy.Shop.DataAccess.Entities {
+    class Employee : BaseEntity
     {
         public int Id;
         public string Name;
