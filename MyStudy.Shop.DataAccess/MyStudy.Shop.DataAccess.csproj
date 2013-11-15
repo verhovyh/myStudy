@@ -57,6 +57,10 @@
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="IShopDatabaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Base\BaseService.cs" />
+    <Compile Include="Services\Base\BaseService.generic.cs" />
+    <Compile Include="Services\Base\IBaseService.cs" />
+    <Compile Include="Services\Base\IBaseService.generic.cs" />
     <Compile Include="Services\Impl\EmployeeService.cs" />
     <Compile Include="Services\Interfaces\IEmployeeService.cs" />
     <Compile Include="ShopDataBaseService.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MyStudy.Shop.DataAccess.Entities.Base;
 
 namespace MyStudy.Shop.DataAccess.DAO.Base {
-    internal interface IBaseDao<TModel> : IBaseDao
+    public interface IBaseDao<TModel> : IBaseDao
         where TModel : IEntity
 
     {

@@ -1,17 +1,29 @@
 ﻿using System.Collections.Generic;
+using MyStudy.Shop.DataAccess.DAO.Interfaces;
 using MyStudy.Shop.DataAccess.Entities;
+using MyStudy.Shop.DataAccess.Services.Base;
 using MyStydy.Shop.DataAccess.Services.Interfaces;
+using NHibernate;
 
-namespace MyStudy.Shop.DataAccess {
-    class EmployeeService : IEmployeeService {
-        public Employee GetEmployeeById(int id)
+namespace MyStudy.Shop.DataAccess.Services.Impl {
+    class EmployeeService : BaseService<Employee> ,IEmployeeService
+    {
+
+        private IEmployeeDao employeeDao; 
+
+        public EmployeeService(ISession nhSession, IEmployeeDao employeeDao) : base(nhSession, employeeDao)
         {
-            throw new System.NotImplementedException();
+            this.employeeDao = employeeDao;
+        }
+
+        public Employee GetEmployeeById(long id)
+        {
+            return this.employeeDao.GetEmployeeById(id);
         }
 
         public IList<Employee> GetEmployees()
         {
-            throw new System.NotImplementedException();
+            return this.employeeDao.GetEmployees();
         }
     }
 }

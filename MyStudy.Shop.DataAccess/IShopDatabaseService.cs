@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using MyStudy.Shop.DataAccess.Entities;
 
-
-namespace MyStydy.Shop.DataAccess.Services.Interfaces {
-    interface IEmployeeService {
+namespace MyStudy.Shop.DataAccess {
+    interface IShopDatabaseService
+    {
         Employee GetEmployeeById(long id);
         IList<Employee> GetEmployees();
     }

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 using MyStudy.Shop.DataAccess.DAO.Impl;
 using MyStudy.Shop.DataAccess.DAO.Interfaces;
 using MyStudy.Shop.DataAccess.Entities;
+using MyStudy.Shop.DataAccess.Services.Impl;
 using MyStydy.Shop.DataAccess.Services.Interfaces;
 using NHibernate;
 
 namespace MyStudy.Shop.DataAccess {
     
-    class ShopDataBaseService :IShopDatabaseService
+    class ShopDataBaseService : IShopDatabaseService
     {
         private IEmployeeService employeeService;
 
@@ -23,9 +24,14 @@ namespace MyStudy.Shop.DataAccess {
             this.employeeService = new EmployeeService(nhSession, employeeDao);
         }
 
+        public Employee GetEmployeeById(long id)
+        {
+            return this.employeeService.GetEmployeeById(id);
+        }
+
         public IList<Employee> GetEmployees()
         {
-            throw new NotImplementedException();
+            return this.employeeService.GetEmployees();
         }
     }
 }
